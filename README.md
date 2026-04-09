@@ -22,23 +22,52 @@ Each lab includes:
 
 ### Networking Labs
 - [FSNA Basic Network Configuration Lab](./01-Networking-FSNA/FSNA-Basic-Network-Configuration/README.md)
+- [Wireshark Traffic Analysis Lab](./02-Network-Analysis/Wireshark-Traffic-Analysis/README.md)
 
 ---
 
 ## Skills Demonstrated
+
 - Network configuration (Cisco Packet Tracer)
 - VLAN segmentation
 - IP addressing & subnetting
 - CLI navigation (Cisco IOS)
 - Connectivity troubleshooting
-- Basic network security concepts
+
+### Network Security & Traffic Analysis
+- Packet analysis using Wireshark
+- Network traffic investigation & filtering
+- Protocol analysis (HTTP, DNS, ICMP, FTP, DHCP, NetBIOS, Kerberos)
+- Detection of network scanning (Nmap / UDP scan behavior)
+- Identification of ARP spoofing (Man-in-the-Middle attacks)
+- Credential capture analysis (plaintext protocols)
+
+### Incident Detection & Analysis
+- Brute-force attack detection (FTP authentication analysis)
+- TCP stream reconstruction and session analysis
+- File transfer tracking and command inspection (FTP)
+- Detection of suspicious network behavior and attacker activity
+
+### Encryption & Advanced Analysis
+- TLS/HTTPS traffic decryption using key log files
+- HTTP/2 traffic analysis
+- Header inspection and artifact extraction
+- Object reconstruction from network traffic (Wireshark Export Objects)
+
+### Security Best Practices
+- Indicator defanging (IP addresses & domains)
+- Safe handling of sensitive data
+- Understanding of encrypted vs cleartext protocols
 
 ---
 
 ## Tools Used
 - Cisco Packet Tracer
-- Wireshark (learning phase)
-- Splunk (learning phase)
+- Wireshark 
+- Splunk
+- Nmap
+- NetworkMiner
+  
 
 ---
 
